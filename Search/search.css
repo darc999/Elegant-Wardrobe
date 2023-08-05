@@ -1,0 +1,24 @@
+*{  
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	list-style: none;
+}
+
+.imgs{
+	align-content: center;
+	margin: 10px 175px;
+	background:#FFFFFF;
+	align-items: center;
+	width: 1200px;
+	margin-left: -300px;
+	background-color: transparent;
+}
+.imgs img{
+	width: 230px;
+	padding: 5px;
+	transition: 0.5s;
+	
+}.imgs img:hover{
+	transform: scale(1.05);
+}
