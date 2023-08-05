@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+*{  
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	list-style: none;
+}
+body{
+background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("aboutusbg.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+h1{
+	text-align: center;
+	background-color: transparent;
+	color:antiquewhite;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+#history{
+width: 33.33%;
+color:aliceblue;
+	float: right;
+text-align: center;
+}
+#Vission{
+width: 33.33%;
+color:aliceblue;
+	float:left;
+	text-align: center;
+	
+}
+#achievments{
+width: 33.33%;
+color:aliceblue;
+	margin: 0 auto;
+	text-align: center;
+}
+p{
+	color: antiquewhite;
+	font-size: 20px;
+	
+}
+hr { 
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;					
+  color: white;
+  border-style: inset;
+  border-width: 1px;
+
+}
